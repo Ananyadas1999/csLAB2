@@ -1,13 +1,5 @@
 #include <iostream>
 using namespace std;
-/*
-Write a class for Bubble sort. It should include:
-1. Function that takes an array as input along with the size of the array. It must return the sorted array using Bubble sort.
-2. Function that takes an linked list as input. It must return the sorted linked list using Bubble sort.
-*/
-
-
-//171140
 class node
 {
  public:
@@ -15,8 +7,7 @@ class node
  node *next;
 };
 
-//USUAL LINKED LIST STUFFS  
-//171140
+
 class linkedList
 {
  public:
@@ -54,11 +45,9 @@ class linkedList
   }
  }
 };
-//171140
 
 
-//HERE I HAVE TAKEN AN ARRAY THROUGH THE HELP OF A CLASS 
-//FOR BETTER UTILISATION OF THE MODULARITY
+
 
 class array
 {
@@ -78,7 +67,6 @@ class array
       }
     }
 };
-//171140
 
 class BUBBLESORT
 {
@@ -101,7 +89,7 @@ class BUBBLESORT
    }
     return arr;   
   }
-  //171140
+  
   
   //TO TEST THE FUNCTIONING OF THE BUBBLESORTING OF AN ARRAY
   void testarr()
@@ -121,7 +109,7 @@ class BUBBLESORT
     ANEW.display();
   }
   
-  //171140
+  
   
   //HERE IS THE BUBBLESORT FUNCTION FOR LINKED LIST
   node* bubblesortLL(node* head, node* tail, int size)
