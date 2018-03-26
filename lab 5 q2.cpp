@@ -56,7 +56,7 @@ public:
     //This function puts the pivot(i.e. the last element in this case) in its correct chronological position
     //and sepaprates the array into two halves, returning the index of the new position of pivot
     
-    //1711140
+    
     
 int arrangeARR(int *arr,int l,int r)
 {
@@ -91,7 +91,7 @@ int *qsort(int *ar, int left, int right)
     return ar;
 }
     
-    //1711140
+    
 void display(int* ars,int s)
 {
     for(int a=0;a<s;a++)
