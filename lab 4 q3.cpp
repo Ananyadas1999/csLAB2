@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string.h>
-//1711140
+
 
 /*My program was having an issue of deprecated conversion of string to char*, hence used this */
 #pragma GCC diagnostic ignored "-Wwrite-strings"
@@ -23,7 +23,7 @@ class Issue   //this stores the data related to the issue to be registered
     Issue(){link=NULL;};
 };
 
-//1711140
+
 
 class StkPal   //this class is to implement stack concept in palindrom checking
     
@@ -43,7 +43,7 @@ class StkPal   //this class is to implement stack concept in palindrom checking
    }
 }stack;
 
-//1711140
+
 
 class CustomerService    //this class is created to integrate and functionalise the nodes of the Issue linked list
 {
@@ -60,7 +60,7 @@ class CustomerService    //this class is created to integrate and functionalise 
     void displayIssue();
 };
 
-//1711140
+
 
 /*Checking Palindrome Using Array STACK*/
 
@@ -94,7 +94,7 @@ int CustomerService::chkPalindrome(char nm[30])
       return -1;
 }
 
-//1711140
+
 
 void CustomerService::addIssue(char nm[],long int p, char des[])   //this function is to add issue and link it to a list
 {
@@ -123,7 +123,7 @@ void CustomerService::addIssue(char nm[],long int p, char des[])   //this functi
     }
 };
     
-//1711140    
+   
 
 void CustomerService::displayIssue()    //function to display the issue
 {
@@ -145,7 +145,7 @@ void CustomerService::displayIssue()    //function to display the issue
     cout<<"\n \n \n";
 }
 
-//1711140
+
 
 
 int main()       //main function to test the code 
