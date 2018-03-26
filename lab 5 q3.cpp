@@ -143,9 +143,7 @@ class BUBBLESORT
    }
     return arr;   
   }
-  //171140
   
-  //171140
   
   //HERE IS THE BUBBLESORT FUNCTION FOR LINKED LIST
   Node* sort(Node* head, Node* tail, int size)
